@@ -1,0 +1,7 @@
+# dsh-restart-button bundle patch: mount the host service row.
+# The client half (the input-bar button) is discovered automatically via the
+# package.json dsh.client declaration; the host face for the wire contracts is
+# picked up by the typert-loader through the ./typert export.
+- insert:
+    - id: dsh-restart-button
+      name: dsh-restart-button
